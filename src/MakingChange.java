@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
@@ -9,13 +10,9 @@ import java.util.Arrays;
  */
 
 public class MakingChange {
-    /**
-     * TODO: Complete this function, countWays(), to return the number of ways to make change
-     *  for any given total with any given set of coins.
-     */
 
     private static int[] possibleCoins;
-    private static int[][] memoization;
+    private static long[][] memoization;
 
     public static long countWays(int target, int[] coins) {
         Arrays.sort(coins);
@@ -28,11 +25,22 @@ public class MakingChange {
             possibleCoins[i] = coins[length - i - 1];
         }
 
-        memoization = new int[length][target + 1];
-        return 0;
+        memoization = new long[length][target + 1];
+        for (long[] row : memoization) Arrays.fill(row, -1);
+        return findWay(0, target);
     }
 
-    private static long wayPath(int index, int remaining) {
+    private static long findWay(int index, int remaining) {
+        if (remaining == 0) return 1;
+        if (remaining < 0 || index == memoization.length) return 0;
 
+        if (memoization[index][remaining] != -1) return memoization[index][remaining];
+
+        long include = findWay(index, remaining - possibleCoins[index]);
+        long exclude = findWay(index + 1, remaining);
+
+        memoization[index][remaining] = include + exclude;
+
+        return memoization[index][remaining];
     }
 }
