@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf08351e-8001-407c-880c-49b47a0a4156" name="Changes" comment="Work Log Entry 5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bf08351e-8001-407c-880c-49b47a0a4156" name="Changes" comment="Work Log Entry 6">
       <change beforePath="$PROJECT_DIR$/src/MakingChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MakingChange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739220920045</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Work Log Entry 6">
+      <option name="closed" value="true" />
+      <created>1739507987662</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739507987662</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +150,7 @@
     <MESSAGE value="Work Log Entry 3" />
     <MESSAGE value="Work Log Entry 4" />
     <MESSAGE value="Work Log Entry 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Work Log Entry 5" />
+    <MESSAGE value="Work Log Entry 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work Log Entry 6" />
   </component>
 </project>

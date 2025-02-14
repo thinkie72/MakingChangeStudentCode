@@ -8,6 +8,7 @@ Name: Tyler Hinkie
 | February 2  | 8:15-8:45pm  |      I got it working! I ended up using a 2d array instead of an array of arraylists to speed it up since I would have to fill each with -1 from 0-->target+1. This worked super well. I'm really excited to see what's in store during tomorrow's lesson! |
 | February 6  |   2:45-3pm   |                                                        I did a little work after the CHM presentations. This is just a filler log to hold that I did some thinking. I began thinking about tabulation approaches and making my memoization more efficient. |
 | February 10 | 12:50-1:20pm |                           I finished tabulation and it works. I figured out ech include and exclude need to be separate and the conditionals should therefore be separated. I'm super happy with how this turned out. I'll comment it up and send it in... |
+| February 13 |   8:45-9pm   |                                                                                 I commented up my code for submission. I feel really good about the progress I made with this project. I'm super excited to learn about some more applications tomorrow... |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
