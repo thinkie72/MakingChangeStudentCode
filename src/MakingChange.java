@@ -28,7 +28,7 @@ public class MakingChange {
             possibleCoins[i] = coins[length - i - 1];
         }
 
-        return findWayTabulation(0, target);
+        return findWayTabulation(target);
 
 //        // Set up memoization array for separate recursive method
 //        memoization = new long[length][target + 1];
@@ -58,7 +58,7 @@ public class MakingChange {
     }
 
     // Calculates the number of ways to make the change using tabulation
-    private static long findWayTabulation(int index, int target) {
+    private static long findWayTabulation(int target) {
         // Sets up tabulation array
         long[][] tabulation = new long[possibleCoins.length][target + 1];
 
