@@ -58,7 +58,7 @@ public class MakingChange {
     }
 
     // Calculates the number of ways to make the change using tabulation
-    private static long findWayTabulation(int index, int target) {
+    private static long findWayTabulation(int target) {
         // Sets up tabulation array
         long[][] tabulation = new long[possibleCoins.length][target + 1];
 
